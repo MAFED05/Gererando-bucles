@@ -1,1 +1,174 @@
-# Gererando-bucles
+# Gererando bucles
+
+## Punto #1
+
+Imprimir un listado con los números del 1 al 100 cada uno con su respectivo cuadrado.
+
+## Solución punto #1
+
+``` python
+a = 1 #Se asigna el primer valor
+while(a <= 100): #Definimos el bucle
+  print(str(a)+ " y su cuadrado es: " +str(a**2)) #Se imprime el valor actual y su cuadrado
+  a += 1 #Se actualiza el valor para que el bucle se repita hasta que deje de cumplir la condición
+```
+
+## Punto #2
+
+Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
+
+## Solución punto #2
+
+``` python
+i = 1 #asignamos la variable con valor de 1 (números impares)
+print("a continuación tenemos los numeros impares de 1 hasta 999") #imprimimos el enunciado
+while (i <= 999):#abrimos un bucle en el que 'i' debe ser menor o igual a 999
+    if (i%2 > 0):#si el residuo de 'i'/2 es mayor a 0, 'i' es impar
+        print(i)#imprimimos 'i'
+    i = i + 2 #sumamos 2 a 'i' para continuar el bucle hasta que deje de cumplir la condición
+
+a = 2 #asignamos la variable con valor de 2 (números impares)
+print("a continuación tenemos los numeros pares de 2 hasta 1000")#imprimimos el enunciado
+while (a <= 1000): #abrimos un bucle en el que 'n' debe ser menor o igual a 1000
+    if (a%2 < 1): #si el residuo de 'n'/2 es menor a 1, 'n' es par
+        print(a) #imprimimos 'n'
+    a = a + 2 #sumamos 2 a 'n' para continuar con el bucle hasta que deje de cumplir la condición
+```
+
+## Punto #3
+
+Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
+
+## Solución punto #3
+
+``` python
+x = int(input("Ingrese un número mayor a 2")) #Le solicitamos al usuario que ingrese un número
+if x % 2 != 0: #Si el número no es par se le resta 1, para que se vuelva par
+    x -= 1 
+if x < 2 : #Se coloca una condición en caso de que el número no sea mayor a 2
+    print ("El número ingresado no es válido")
+while x >= 2: #Definimos el bucle donde se imprimirán los números hasta llegar a 2
+    print(x)
+    x -= 2 #Al restarle 2 a un número par, el resultado seguirá siendo par 
+```
+
+## Punto #4
+
+En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18:9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a la de A.
+
+## Solución punto #4
+
+``` python
+habitantesA = 25000000 #definimos la cantidad de habitantes del pais A
+habitantesB = 18900000 #definimos la cantidad de habitantes del pais B
+año = 2022#asignamos el año (2022)
+
+while (habitantesB <=habitantesA):#iniciamos un bucle si los habitantes de B son menores a los habitantes de A
+    crecimientoA = ((habitantesA*2)/100) #creamos la fórmula para saber el crecimiento de los habitantes de A
+    crecimientoB = ((habitantesB*3)/100) #creamos la fórmula para saber el crecimiento de los habitantes de B
+    habitantesA = habitantesA + crecimientoA #sumamos el crecimiento al valor inicial de los habitantes de A
+    habitantesB = habitantesB + crecimientoB #sumamos el crecimiento al valor inicial de los habitantes de B
+    año = año + 1 #sumamos un año al valor inicial
+    print(año) #imprimimos los años en los que la población de A será mayor a la de B
+```
+``` python
+#definimos la variable
+habitantesA= 25000000
+habitantesB= 18900000
+crecimientoA= 0.02
+crecimientoB= 0.03
+año =2022
+
+while habitantesB < habitantesB :
+    año += 1 #incrementar el año
+    #calcular el nuevo tamaño de la población
+    habitantesA += habitantesA*crecimientoA
+    habitantesB += habitantesB*crecimientoB
+    #Imprimir el resultado de la población
+print("La población del país B supera a la población del país A en el año", año)
+
+```
+
+## Punto #5
+
+Imprimir el factorial de un número natural n dado.
+
+## Solución punto #5
+
+``` python
+a = float(input("Ingrese un número entero:")) #Se ingresa el número al que se le quiere sacar el factorial
+x = a #El valor "x", será el que multiplicará a la variable "a", y comenzará teniendo el mismo valor que "a"
+
+while x > 1: # El bucle va hasta que "x" llega 1, ya que si llega a 0, todo el bucle daria cero
+    print(a) #Se imprimen todos los resultados hasta llegar, al factorial del número
+    x -= 1 #Se resta 1 a la variable "x"
+    a *= x # Se multiplica "a" por "x" ejm: Factorial de 3 = (3*3)*(3*2)*(3*1), siendo los números 3,2,1 la variable x, donde cada vez disminuye una unidad
+    
+print ("El factorial del número ingresado es: " +str(a) ) #Se imprime el último valor de a, que seria el valor factorial
+```
+
+## Punto #6
+
+Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
+
+## Solución punto #6
+
+``` python
+x = input("Piensa un número del 1 al 100, y cuando estés listo presiona enter para comenzar: ") #Al presionar la tecla enter comienza el juego
+a = 50 #Se inicia la variable en la mitad del rango,que en este caso es 50
+print("Acaso el número es:" + str(a) + "?") #El código comienza preguntando si el numero que piensas es el 50, a partir de eso:
+
+pregunta = input("El número que estás pensando es igual, poco menor , menor, mucho menor, poco mayor, mayor o mucho mayor al que dije?: ")
+
+while pregunta != str("igual"): #Si se elige que es igual, el código se acaba e imprime que se adivinó el numero
+    if pregunta == "poco menor": #Se resta 1 al valor actual, y se vuelve a preguntar
+        a -= 1
+    elif pregunta == "poco mayor": #Se suma 1 al valor actual, y se vuelve a preguntar
+        a += 1
+    elif pregunta == "menor": #Se resta 5 al valor actual, y se vuelve a preguntar
+        a -= 5
+    elif pregunta == "mayor": # Se resta 5 al valor actual, y se vuelve a preguntar
+        a += 5
+    elif pregunta == "mucho menor": #Se resta 10 al valor actual, y se vuelve a preguntar
+        a -= 10
+    elif pregunta == "mucho mayor": #Se suma 10 al valor actual, y se vuelve a preguntar
+        a += 10
+    
+    print("Acaso el número es:" + str(a) + "?") #Por medio de este print se digita el nuevo número dependiendo de la respuesta del usuario
+   
+    #Por medio de este print se vuelve a preguntar
+    pregunta = input("El número que estás pensando es igual, poco menor , menor, mucho menor, poco mayor, mayor o mucho mayor al que dije?: ") 
+
+print("¡He adivinado el número!, el número es " +str (a)) #Fin del bucle cuando se digita que el numero es igual al pensado
+```
+
+## Punto #7
+
+Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
+
+## Solución punto #7
+
+``` python
+valor= int(input("Ingrese un número desde el 2 al 50:")) #Se le solicita al usuario que ingrese el valor inicial
+
+if valor < 2 or valor > 50: #Colocamos un condicional que le permite identificar al programa si el número está en el rango
+    print("El número no es válido ")
+else:
+   print("Los divisores de", valor, "son: ")
+
+   divisor = 1 #se inicia con uno ya que el bloque while va a verficar todos los números desde ahí
+   while divisor<= valor:#Se inicia el bucle siempre y cuando el divisor sean menor o igual al valor
+       if valor% divisor == 0: #Si el residuo de la división es 0, entonces ese valor será un condicional
+        print(divisor) #Se imprime el divisor
+
+       divisor +=1 #Se le va sumando 1 hasta llegar al valor ingresado y así ir verificando sus divisores
+```
+
+## Punto #8
+
+Implementar el algoritmo que muestre los números primos del 1 al 100 usando funciones
+
+## Solución punto #8
+
+``` python
+```
