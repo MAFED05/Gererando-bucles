@@ -1,5 +1,7 @@
 # Gererando bucles
 
+En este repo tenemos 8 puntos diferentes donde para cada punto creamos un programa diferente y todos los programas se encuentran dentro de un Notebook de Python, cada punto va debidamente documentado, con su imagen de prueba y los primeros 3 puntos incluyen diagrama de flujo.
+
 ## Punto #1
 
 Imprimir un listado con los números del 1 al 100 cada uno con su respectivo cuadrado.
@@ -243,3 +245,7 @@ if __name__ == "__main__":
 ### Código probado
 
 [![Captura-de-pantalla-2023-03-27-205922.png](https://i.postimg.cc/W4MqpjyX/Captura-de-pantalla-2023-03-27-205922.png)](https://postimg.cc/XZYYQM4C)
+
+Muchas gracias por su atención y espero sea de ayuda!
+
+Hasta un próximo reto
