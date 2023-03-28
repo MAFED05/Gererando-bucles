@@ -12,6 +12,12 @@ while(a <= 100): #Definimos el bucle
   print(str(a)+ " y su cuadrado es: " +str(a**2)) #Se imprime el valor actual y su cuadrado
   a += 1 #Se actualiza el valor para que el bucle se repita hasta que deje de cumplir la condición
 ```
+### Código probado
+
+[![Captura-de-pantalla-2023-03-27-193408.png](https://i.postimg.cc/br4Ff9bW/Captura-de-pantalla-2023-03-27-193408.png)](https://postimg.cc/V0BFjMKW)
+
+### Diagrama de flujo
+[![pako-e-Np-NUEt-Pwz-AM-it-WTt1op5-Vj-JYp-YO1-CRg-MO4-LTt-YSb-ZZ5-DFlq-RC0-e-k-LUL45-O-h-T7-Y7-Jpx-Ur-GBH7-T7-FGX2-A95pbi-PWwbyw.png](https://i.postimg.cc/5ykWYzzS/pako-e-Np-NUEt-Pwz-AM-it-WTt1op5-Vj-JYp-YO1-CRg-MO4-LTt-YSb-ZZ5-DFlq-RC0-e-k-LUL45-O-h-T7-Y7-Jpx-Ur-GBH7-T7-FGX2-A95pbi-PWwbyw.png)](https://postimg.cc/CnDQ9zmR)
 
 ## Punto #2
 
@@ -34,6 +40,13 @@ while (a <= 1000): #abrimos un bucle en el que 'n' debe ser menor o igual a 1000
         print(a) #imprimimos 'n'
     a = a + 2 #sumamos 2 a 'n' para continuar con el bucle hasta que deje de cumplir la condición
 ```
+### Código probado
+
+[![h.png](https://i.postimg.cc/vTt8VZyZ/h.png)](https://postimg.cc/V05cy15x)
+
+### Diagrama de flujo
+
+
 
 ## Punto #3
 
@@ -51,12 +64,25 @@ while x >= 2: #Definimos el bucle donde se imprimirán los números hasta llegar
     print(x)
     x -= 2 #Al restarle 2 a un número par, el resultado seguirá siendo par 
 ```
+### Código probado
+
+[![Captura-de-pantalla-2023-03-27-204346.png](https://i.postimg.cc/WpHXBwcS/Captura-de-pantalla-2023-03-27-204346.png)](https://postimg.cc/7bS3776T)
 
 ## Punto #4
 
 En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18:9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a la de A.
 
+
+En este caso coloqué 2 posibles soluciones: 
+
+1. La primera nos indica la lista de años hasta el momento en el que la población del país B supera a la del A
+2. Y la segundo nos imprime el año exacto en el que la población del país B supera la del A
+
 ## Solución punto #4
+
+#### Solución #1
+
+Indica la lista de años hasta el momento en el que la población del país B supera a la del A
 
 ``` python
 habitantesA = 25000000 #definimos la cantidad de habitantes del pais A
@@ -71,6 +97,14 @@ while (habitantesB <=habitantesA):#iniciamos un bucle si los habitantes de B son
     año = año + 1 #sumamos un año al valor inicial
     print(año) #imprimimos los años en los que la población de A será mayor a la de B
 ```
+### Código probado
+
+[![Captura-de-pantalla-2023-03-27-204443.png](https://i.postimg.cc/W1CDjtbB/Captura-de-pantalla-2023-03-27-204443.png)](https://postimg.cc/QFgNJ87m)
+
+#### Solución #2
+
+Imprime el año exacto en el que la población del país B supera la del A
+
 ``` python
 #definimos la variable
 habitantesA= 25000000
@@ -88,6 +122,9 @@ while habitantesB < habitantesB :
 print("La población del país B supera a la población del país A en el año", año)
 
 ```
+### Código probado
+
+[![Captura-de-pantalla-2023-03-27-204527.png](https://i.postimg.cc/XJ0pGh5x/Captura-de-pantalla-2023-03-27-204527.png)](https://postimg.cc/WDX2x5XJ)
 
 ## Punto #5
 
@@ -106,6 +143,10 @@ while x > 1: # El bucle va hasta que "x" llega 1, ya que si llega a 0, todo el b
     
 print ("El factorial del número ingresado es: " +str(a) ) #Se imprime el último valor de a, que seria el valor factorial
 ```
+
+### Código probado
+
+[![Captura-de-pantalla-2023-03-27-204638.png](https://i.postimg.cc/ZKDnF03W/Captura-de-pantalla-2023-03-27-204638.png)](https://postimg.cc/qzyppJ1r)
 
 ## Punto #6
 
@@ -141,6 +182,9 @@ while pregunta != str("igual"): #Si se elige que es igual, el código se acaba e
 
 print("¡He adivinado el número!, el número es " +str (a)) #Fin del bucle cuando se digita que el numero es igual al pensado
 ```
+### Código probado
+
+[![Captura-de-pantalla-2023-03-27-204809.png](https://i.postimg.cc/bY4Ns4jn/Captura-de-pantalla-2023-03-27-204809.png)](https://postimg.cc/grqP7Sjc)
 
 ## Punto #7
 
@@ -163,6 +207,9 @@ else:
 
        divisor +=1 #Se le va sumando 1 hasta llegar al valor ingresado y así ir verificando sus divisores
 ```
+### Código probado
+
+[![Captura-de-pantalla-2023-03-27-205053.png](https://i.postimg.cc/nLQMRZZn/Captura-de-pantalla-2023-03-27-205053.png)](https://postimg.cc/R34MhkNY)
 
 ## Punto #8
 
@@ -171,4 +218,24 @@ Implementar el algoritmo que muestre los números primos del 1 al 100 usando fun
 ## Solución punto #8
 
 ``` python
+def numerosPrimos(a: int):
+    i = int(2) # Se establece la variable desde 2 
+    if a == 2 :
+        print(a)
+    while i < a : # mientras 'i' sea menor que 'a'
+        if a%i ==0: # romper el bucle
+            break
+        elif i == a-1: # si 'i' es igual a 'a' - 1
+            print(a)
+        i += 1 #actualizar la variable sumando uno
+ 
+if __name__ == "__main__":
+    a = int(2) # declarar el límite mínimo de 'a'
+    d = 100 #declarar el límite máximo 'd'
+    while a < d : #mientras 'a' sea menor que 'd'
+      Primos = numerosPrimos(a) #Declarar una variable d que expresa a los numero primos 'a' que estan entre el rango de 2 a 100
+      a += 1 #Actualizar la variable de uno en uno teniendo en cuenta el rango
 ```
+### Código probado
+
+[![Captura-de-pantalla-2023-03-27-205922.png](https://i.postimg.cc/W4MqpjyX/Captura-de-pantalla-2023-03-27-205922.png)](https://postimg.cc/XZYYQM4C)
