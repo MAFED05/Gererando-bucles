@@ -1,8 +1,8 @@
-# Gererando bucles
+# Gererando bucles 🔁
 
 En este repo tenemos 8 puntos diferentes donde para cada punto creamos un programa diferente y todos los programas se encuentran dentro de un Notebook de Python ([reto7.ipynb](/reto7.ipynb)), cada punto va debidamente documentado, con su imagen de prueba y los primeros 3 puntos incluyen diagrama de flujo.
 
-## Punto #1
+## Punto #1 🧮
 
 Imprimir un listado con los números del 1 al 100 cada uno con su respectivo cuadrado.
 
@@ -21,7 +21,7 @@ while(a <= 100): #Definimos el bucle
 ### Diagrama de flujo
 [![pako-e-Np-NUEt-Pwz-AM-it-WTt1op5-Vj-JYp-YO1-CRg-MO4-LTt-YSb-ZZ5-DFlq-RC0-e-k-LUL45-O-h-T7-Y7-Jpx-Ur-GBH7-T7-FGX2-A95pbi-PWwbyw.png](https://i.postimg.cc/5ykWYzzS/pako-e-Np-NUEt-Pwz-AM-it-WTt1op5-Vj-JYp-YO1-CRg-MO4-LTt-YSb-ZZ5-DFlq-RC0-e-k-LUL45-O-h-T7-Y7-Jpx-Ur-GBH7-T7-FGX2-A95pbi-PWwbyw.png)](https://postimg.cc/CnDQ9zmR)
 
-## Punto #2
+## Punto #2 ⚡
 
 Imprimir un listado con los números impares desde 1 hasta 999 y seguidamente otro listado con los números pares desde 2 hasta 1000.
 
@@ -50,7 +50,7 @@ while (a <= 1000): #abrimos un bucle en el que 'n' debe ser menor o igual a 1000
 
 [![](https://mermaid.ink/img/pako:eNp1kUFPAjEQhf_KpIkJRDYBbmwAoy4oKiZEby2HSTvIxN2WlKIxLP_dWTXhAN5eZ6bvfZnZKxscqVytyvBp1xgTvBbGX7dmni2HdpaNbzTDCHpLkYXI4QgGg8GVPDPj6w-KDh3FUE8yzRd9GEP3tHenZ9UmcsURuPFZ6IkHiw7Bsi0D8OWovzR-0UQYX8j3eorlNtT3md4SOEpMnoDK3_nGYtZasW8LqehbjULYb8pTkULY63bPYDxoFMIh9E5bj0dCbHzm5wnnTYTx0yPh07-Ez3-EqqMqihWykzXvjQcwKq2pIqNykQ7ju1HGH2QOdym8fHmr8hR31FG7jcNEBeNbxErlK0mUKjlOIc5_7_ZzvsM3sl-Stg?type=png)](https://mermaid.live/edit#pako:eNp1kUFPAjEQhf_KpIkJRDYBbmwAoy4oKiZEby2HSTvIxN2WlKIxLP_dWTXhAN5eZ6bvfZnZKxscqVytyvBp1xgTvBbGX7dmni2HdpaNbzTDCHpLkYXI4QgGg8GVPDPj6w-KDh3FUE8yzRd9GEP3tHenZ9UmcsURuPFZ6IkHiw7Bsi0D8OWovzR-0UQYX8j3eorlNtT3md4SOEpMnoDK3_nGYtZasW8LqehbjULYb8pTkULY63bPYDxoFMIh9E5bj0dCbHzm5wnnTYTx0yPh07-Ez3-EqqMqihWykzXvjQcwKq2pIqNykQ7ju1HGH2QOdym8fHmr8hR31FG7jcNEBeNbxErlK0mUKjlOIc5_7_ZzvsM3sl-Stg)
 
-## Punto #3
+## Punto #3 📉
 
 Imprimir los números pares en forma descendente hasta 2 que son menores o iguales a un número natural n ≥ 2 dado
 
@@ -74,7 +74,7 @@ while x >= 2: #Definimos el bucle donde se imprimirán los números hasta llegar
 
 [![](https://mermaid.ink/img/pako:eNpNUD1PwzAQ_Sunm1qpHsgYkSJI-EglWGBAijuY-NpaxOfKcSAoyR9j5Y_hlKFsp3sf9-4NWDtNmOKucZ_1QfkAL4Xk60XJpjZuKcT6pnr6-bbkHRjee2qVdlvJEciH_jK5moQQ4wd5rXTkjIWoWgJNwRATUANvXd3QNtJvF3eGl5LzWbBTTevGcuhhnUEyzX7_Xe5PLsYevbEE_Sx_qF5FlsxTLrk8e2yqHkQGFzHTJoKlZFxhjGuV0fGvQTKAxHAgSxLTOGrl3yVKniJPdcE9f3GNafAdrbA7ahWoMGrvlcV0vhC3pE1w_vGvqFNf0y_GUWjd?type=png)](https://mermaid.live/edit#pako:eNpNUD1PwzAQ_Sunm1qpHsgYkSJI-EglWGBAijuY-NpaxOfKcSAoyR9j5Y_hlKFsp3sf9-4NWDtNmOKucZ_1QfkAL4Xk60XJpjZuKcT6pnr6-bbkHRjee2qVdlvJEciH_jK5moQQ4wd5rXTkjIWoWgJNwRATUANvXd3QNtJvF3eGl5LzWbBTTevGcuhhnUEyzX7_Xe5PLsYevbEE_Sx_qF5FlsxTLrk8e2yqHkQGFzHTJoKlZFxhjGuV0fGvQTKAxHAgSxLTOGrl3yVKniJPdcE9f3GNafAdrbA7ahWoMGrvlcV0vhC3pE1w_vGvqFNf0y_GUWjd)
 
-## Punto #4
+## Punto #4 👥
 
 En 2022 el país A tendrá una población de 25 millones de habitantes y el país B de 18:9 millones. Las tasas de crecimiento anual de la población serán de 2% y 3% respectivamente. Desarrollar un algoritmo para informar en que año la población del país B superará a la de A.
 
@@ -132,7 +132,7 @@ print("La población del país B supera a la población del país A en el año",
 
 [![Captura-de-pantalla-2023-03-27-204527.png](https://i.postimg.cc/XJ0pGh5x/Captura-de-pantalla-2023-03-27-204527.png)](https://postimg.cc/WDX2x5XJ)
 
-## Punto #5
+## Punto #5 👩🏽‍💻
 
 Imprimir el factorial de un número natural n dado.
 
@@ -154,7 +154,7 @@ print ("El factorial del número ingresado es: " +str(a) ) #Se imprime el últim
 
 [![Captura-de-pantalla-2023-03-27-204638.png](https://i.postimg.cc/ZKDnF03W/Captura-de-pantalla-2023-03-27-204638.png)](https://postimg.cc/qzyppJ1r)
 
-## Punto #6
+## Punto #6 🎲
 
 Implementar un algoritmo que permita adivinar un número dado de 1 a 100, preguntando en cada caso si el número es mayor, menor o igual.
 
@@ -192,7 +192,7 @@ print("¡He adivinado el número!, el número es " +str (a)) #Fin del bucle cuan
 
 [![Captura-de-pantalla-2023-03-27-204809.png](https://i.postimg.cc/bY4Ns4jn/Captura-de-pantalla-2023-03-27-204809.png)](https://postimg.cc/grqP7Sjc)
 
-## Punto #7
+## Punto #7 🎰
 
 Implementar un programa que ingrese un número de 2 a 50 y muestre sus divisores.
 
@@ -217,11 +217,11 @@ else:
 
 [![Captura-de-pantalla-2023-03-27-205053.png](https://i.postimg.cc/nLQMRZZn/Captura-de-pantalla-2023-03-27-205053.png)](https://postimg.cc/R34MhkNY)
 
-## Punto #8
+## Punto #8 🔋
 
 Implementar el algoritmo que muestre los números primos del 1 al 100 usando funciones
 
-## Solución punto #8
+## Solución punto #8 
 
 ``` python
 def numerosPrimos(a: int):
