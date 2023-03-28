@@ -1,6 +1,6 @@
 # Gererando bucles
 
-En este repo tenemos 8 puntos diferentes donde para cada punto creamos un programa diferente y todos los programas se encuentran dentro de un Notebook de Python, cada punto va debidamente documentado, con su imagen de prueba y los primeros 3 puntos incluyen diagrama de flujo.
+En este repo tenemos 8 puntos diferentes donde para cada punto creamos un programa diferente y todos los programas se encuentran dentro de un Notebook de Python ([reto7.ipynb](/reto7.ipynb)), cada punto va debidamente documentado, con su imagen de prueba y los primeros 3 puntos incluyen diagrama de flujo.
 
 ## Punto #1
 
