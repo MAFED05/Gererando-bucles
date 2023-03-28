@@ -46,7 +46,7 @@ while (a <= 1000): #abrimos un bucle en el que 'n' debe ser menor o igual a 1000
 
 ### Diagrama de flujo
 
-
+[![](https://mermaid.ink/img/pako:eNp1kUFPAjEQhf_KpIkJRDYBbmwAoy4oKiZEby2HSTvIxN2WlKIxLP_dWTXhAN5eZ6bvfZnZKxscqVytyvBp1xgTvBbGX7dmni2HdpaNbzTDCHpLkYXI4QgGg8GVPDPj6w-KDh3FUE8yzRd9GEP3tHenZ9UmcsURuPFZ6IkHiw7Bsi0D8OWovzR-0UQYX8j3eorlNtT3md4SOEpMnoDK3_nGYtZasW8LqehbjULYb8pTkULY63bPYDxoFMIh9E5bj0dCbHzm5wnnTYTx0yPh07-Ez3-EqqMqihWykzXvjQcwKq2pIqNykQ7ju1HGH2QOdym8fHmr8hR31FG7jcNEBeNbxErlK0mUKjlOIc5_7_ZzvsM3sl-Stg?type=png)](https://mermaid.live/edit#pako:eNp1kUFPAjEQhf_KpIkJRDYBbmwAoy4oKiZEby2HSTvIxN2WlKIxLP_dWTXhAN5eZ6bvfZnZKxscqVytyvBp1xgTvBbGX7dmni2HdpaNbzTDCHpLkYXI4QgGg8GVPDPj6w-KDh3FUE8yzRd9GEP3tHenZ9UmcsURuPFZ6IkHiw7Bsi0D8OWovzR-0UQYX8j3eorlNtT3md4SOEpMnoDK3_nGYtZasW8LqehbjULYb8pTkULY63bPYDxoFMIh9E5bj0dCbHzm5wnnTYTx0yPh07-Ez3-EqqMqihWykzXvjQcwKq2pIqNykQ7ju1HGH2QOdym8fHmr8hR31FG7jcNEBeNbxErlK0mUKjlOIc5_7_ZzvsM3sl-Stg)
 
 ## Punto #3
 
@@ -67,6 +67,10 @@ while x >= 2: #Definimos el bucle donde se imprimirán los números hasta llegar
 ### Código probado
 
 [![Captura-de-pantalla-2023-03-27-204346.png](https://i.postimg.cc/WpHXBwcS/Captura-de-pantalla-2023-03-27-204346.png)](https://postimg.cc/7bS3776T)
+
+### Diagrama de flujo
+
+[![](https://mermaid.ink/img/pako:eNpNUD1PwzAQ_Sunm1qpHsgYkSJI-EglWGBAijuY-NpaxOfKcSAoyR9j5Y_hlKFsp3sf9-4NWDtNmOKucZ_1QfkAL4Xk60XJpjZuKcT6pnr6-bbkHRjee2qVdlvJEciH_jK5moQQ4wd5rXTkjIWoWgJNwRATUANvXd3QNtJvF3eGl5LzWbBTTevGcuhhnUEyzX7_Xe5PLsYevbEE_Sx_qF5FlsxTLrk8e2yqHkQGFzHTJoKlZFxhjGuV0fGvQTKAxHAgSxLTOGrl3yVKniJPdcE9f3GNafAdrbA7ahWoMGrvlcV0vhC3pE1w_vGvqFNf0y_GUWjd?type=png)](https://mermaid.live/edit#pako:eNpNUD1PwzAQ_Sunm1qpHsgYkSJI-EglWGBAijuY-NpaxOfKcSAoyR9j5Y_hlKFsp3sf9-4NWDtNmOKucZ_1QfkAL4Xk60XJpjZuKcT6pnr6-bbkHRjee2qVdlvJEciH_jK5moQQ4wd5rXTkjIWoWgJNwRATUANvXd3QNtJvF3eGl5LzWbBTTevGcuhhnUEyzX7_Xe5PLsYevbEE_Sx_qF5FlsxTLrk8e2yqHkQGFzHTJoKlZFxhjGuV0fGvQTKAxHAgSxLTOGrl3yVKniJPdcE9f3GNafAdrbA7ahWoMGrvlcV0vhC3pE1w_vGvqFNf0y_GUWjd)
 
 ## Punto #4
 
